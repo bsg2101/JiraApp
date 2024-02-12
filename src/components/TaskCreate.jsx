@@ -54,7 +54,7 @@ function TaskCreate({ onCreate, task, taskFormUpdate ,onUpdate}) {
         <div className="task-create">
           <h3>Task Oluştur.</h3>
           <form className="task-form">
-            <label className="lbl">Başlık</label>
+            <label className="lbl">Başlık.</label>
             <input
               value={title}
               onChange={handleChange}
